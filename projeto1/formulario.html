@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+
+            <label for="iptNome">Nome: </label>
+            <input type="text" id="iptNome"><br><br>
+        
+            <label for="iptNasc">Data de nascimento: </label>
+            <input type="date" id="iptNasc"><br><br>
+
+            <label for="iptEnd">Endereço: </label>
+            <input type="text" id="iptEnd"><br><br>
+
+            <label for="iptBai">Bairro: </label>
+            <input type="text" id="iptBai"> 
+
+            <label for="iptCid">Cidade: </label>
+            <input type="text" id="iptCid"><br><br>
+
+            <label for="iptCEP">CEP: </label>
+            <input type="text" id="iptCEP">
+
+            <label for="slcEst">Estado</label>
+            <select id="slcEst" name="slcEst">
+                <option value="1">Ceará</option>
+                <option value="2">Amazonas</option>
+                <option value="3">São Paulo</option>
+                <option value="4">Rio de Janeiro</option>
+                <option value="5">Bahia</option>
+            </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Dados profissionais</legend>
+
+        <p>Natureza do Cargo</p>
+        <input type="radio" id="iptGer">
+        <label for="iptGer">Gerência</label>
+
+        <input type="radio" id="iptFina">
+        <label for="iptFina">Financeiro</label>
+
+        <input type="radio" id="iptRec">
+        <label for="iptRec">Recepção</label>
+
+        <input type="radio" id="iptAdm">
+        <label for="iptAdm">Administração</label>
+         
+        <input type="radio" id="iptJur">
+        <label for="iptJur">Jurídico</label><br>
+
+        <p>Área de interesse</p>
+
+
+
+
+        <p>Mini-currículo</p>
+        <textarea name="message" rows="8" cols="80">
+        Digite!
+        </textarea>
+        
+    </form>
+
+    
+</body>
+</html>
